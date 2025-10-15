@@ -3,15 +3,8 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Phone, Heart, Flame, Star, Users, MessageCircle, Camera } from 'lucide-react'
-import { useState, useEffect } from 'react'
 
 export default function Home() {
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-600 via-pink-600 to-purple-600">
       {/* Hero Section */}
